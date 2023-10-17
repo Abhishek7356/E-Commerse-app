@@ -1,0 +1,21 @@
+.cardBox {
+    width: 300px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .cardBox {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .allProductContainer {
+        padding: 10px;
+    }
+}

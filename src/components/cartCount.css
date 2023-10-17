@@ -1,0 +1,19 @@
+
+.outerBox{
+    width: 21%;
+    position: fixed;
+    top: 25%;
+    right: 6%;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    .outerBox{
+        width: 100%;
+        /* display: none; */
+        position: relative;
+        top: 0px;
+        right: 0;
+    }
+}
